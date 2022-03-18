@@ -1,1 +1,1 @@
-export * from './forerunner/components';
+export * from './src/components';
