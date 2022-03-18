@@ -1,0 +1,28 @@
+{
+  "name": "@zedd/react",
+  "main": "dist/index.js",
+  "description": "React Wrapper for Zedd",
+  "version": "0.1.0",
+  "module": "dist/index.mjs.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.6",
+    "react-dom": ">=16.8.6"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "@types/react": "^17.0.40",
+    "@types/react-dom": "^17.0.13"
+  },
+  "dependencies": {
+    "tsup": "^5.12.1"
+  }
+}

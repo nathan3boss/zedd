@@ -1,0 +1,17 @@
+*~
+*.sw[mnpcod]
+*.log
+*.lock
+*.tmp
+*.tmp.*
+log.txt
+
+dist/
+node_modules/
+
+.env
+
+# stencil
+loader
+
+.npmrc

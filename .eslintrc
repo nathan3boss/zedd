@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": { "project": ["./tsconfig.json"] },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "no-conditional-assignment": false,
+    "no-non-null-assertion": false,
+    "no-unnecessary-type-assertion": false,
+    "no-import-side-effect": false,
+    "trailing-comma": false,
+    "no-null-keyword": false,
+    "no-console": 0,
+    "no-unbound-method": true,
+    "no-floating-promises": false,
+    "no-invalid-template-strings": true,
+    "ban-export-const-enum": true,
+    "only-arrow-functions": true,
+
+    "jsx-key": false,
+    "jsx-self-close": false,
+    "jsx-curly-spacing": [true, "never"],
+    "jsx-boolean-value": [true, "never"],
+    "jsx-no-bind": false,
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false,
+    "jsx-wrap-multiline": false
+  }
+}

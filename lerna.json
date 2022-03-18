@@ -1,0 +1,15 @@
+{
+  "packages": ["core", "docs", "storybook", "packages/*"],
+  "publish": {
+    "registry": "https://npm.pkg.github.com",
+    "ignoreChanges": ["ignored-file", "*.md"],
+    "message": "chore(release): publish"
+  },
+  "bootstrap": {
+    "ignore": "component-*",
+    "npmClientArgs": ["--no-package-lock"]
+  },
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "version": "6.0.12"
+}

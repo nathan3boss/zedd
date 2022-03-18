@@ -1,0 +1,13 @@
+:host {
+  display: block;
+
+  --zed-background: #f00;
+
+  @include color-contrast(#f00);
+
+  background: var(--zed-background);
+
+  width: 200px;
+  height: 200px;
+}
+
