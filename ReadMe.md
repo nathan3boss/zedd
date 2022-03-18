@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img alt="Zedd" src="https://pics.freeicons.io/uploads/icons/png/8192667781595759599-512.png" width="60" />
+    <img alt="Zedd" src="https://raw.githubusercontent.com/nathan3boss/zedd/9b7c211d1a67d3b30cea3cdf2f87484d41d6ef61/.github/assets/zeed.svg" width="60" />
   </a>
 </p>
 
