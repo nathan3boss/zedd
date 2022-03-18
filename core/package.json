@@ -1,6 +1,6 @@
 {
   "name": "@zedd/core",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Zedd Web Components",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -13,6 +13,11 @@
   "files": [
     "dist/",
     "loader/"
+  ],
+  "keywords": [
+    "ui",
+    "stencil",
+    "web-components"
   ],
   "scripts": {
     "build": "stencil build --docs",
